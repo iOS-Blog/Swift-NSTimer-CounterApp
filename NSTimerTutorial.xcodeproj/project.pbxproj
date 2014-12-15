@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4FE3FB61A3F009B0004DCCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FE3FB51A3F009B0004DCCA /* AppDelegate.swift */; };
+		C4FE3FB91A3F009B0004DCCA /* NSTimerTutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4FE3FB71A3F009B0004DCCA /* NSTimerTutorial.xcdatamodeld */; };
+		C4FE3FBB1A3F009B0004DCCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FE3FBA1A3F009B0004DCCA /* ViewController.swift */; };
+		C4FE3FBE1A3F009B0004DCCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4FE3FBC1A3F009B0004DCCA /* Main.storyboard */; };
+		C4FE3FC01A3F009B0004DCCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FE3FBF1A3F009B0004DCCA /* Images.xcassets */; };
+		C4FE3FC31A3F009B0004DCCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FE3FC11A3F009B0004DCCA /* LaunchScreen.xib */; };
+		C4FE3FCF1A3F009B0004DCCA /* NSTimerTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FE3FCE1A3F009B0004DCCA /* NSTimerTutorialTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4FE3FC91A3F009B0004DCCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FE3FA81A3F009B0004DCCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4FE3FAF1A3F009B0004DCCA;
+			remoteInfo = NSTimerTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4FE3FB01A3F009B0004DCCA /* NSTimerTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTimerTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FE3FB41A3F009B0004DCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FE3FB51A3F009B0004DCCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4FE3FB81A3F009B0004DCCA /* NSTimerTutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NSTimerTutorial.xcdatamodel; sourceTree = "<group>"; };
+		C4FE3FBA1A3F009B0004DCCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4FE3FBD1A3F009B0004DCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4FE3FBF1A3F009B0004DCCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4FE3FC21A3F009B0004DCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C4FE3FC81A3F009B0004DCCA /* NSTimerTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTimerTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FE3FCD1A3F009B0004DCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FE3FCE1A3F009B0004DCCA /* NSTimerTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTimerTutorialTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4FE3FAD1A3F009B0004DCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FE3FC51A3F009B0004DCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4FE3FA71A3F009A0004DCCA = {
+			isa = PBXGroup;
+			children = (
+				C4FE3FB21A3F009B0004DCCA /* NSTimerTutorial */,
+				C4FE3FCB1A3F009B0004DCCA /* NSTimerTutorialTests */,
+				C4FE3FB11A3F009B0004DCCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4FE3FB11A3F009B0004DCCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4FE3FB01A3F009B0004DCCA /* NSTimerTutorial.app */,
+				C4FE3FC81A3F009B0004DCCA /* NSTimerTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4FE3FB21A3F009B0004DCCA /* NSTimerTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				C4FE3FB51A3F009B0004DCCA /* AppDelegate.swift */,
+				C4FE3FBA1A3F009B0004DCCA /* ViewController.swift */,
+				C4FE3FBC1A3F009B0004DCCA /* Main.storyboard */,
+				C4FE3FBF1A3F009B0004DCCA /* Images.xcassets */,
+				C4FE3FC11A3F009B0004DCCA /* LaunchScreen.xib */,
+				C4FE3FB71A3F009B0004DCCA /* NSTimerTutorial.xcdatamodeld */,
+				C4FE3FB31A3F009B0004DCCA /* Supporting Files */,
+			);
+			path = NSTimerTutorial;
+			sourceTree = "<group>";
+		};
+		C4FE3FB31A3F009B0004DCCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4FE3FB41A3F009B0004DCCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4FE3FCB1A3F009B0004DCCA /* NSTimerTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4FE3FCE1A3F009B0004DCCA /* NSTimerTutorialTests.swift */,
+				C4FE3FCC1A3F009B0004DCCA /* Supporting Files */,
+			);
+			path = NSTimerTutorialTests;
+			sourceTree = "<group>";
+		};
+		C4FE3FCC1A3F009B0004DCCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4FE3FCD1A3F009B0004DCCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4FE3FAF1A3F009B0004DCCA /* NSTimerTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FE3FD21A3F009B0004DCCA /* Build configuration list for PBXNativeTarget "NSTimerTutorial" */;
+			buildPhases = (
+				C4FE3FAC1A3F009B0004DCCA /* Sources */,
+				C4FE3FAD1A3F009B0004DCCA /* Frameworks */,
+				C4FE3FAE1A3F009B0004DCCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTimerTutorial;
+			productName = NSTimerTutorial;
+			productReference = C4FE3FB01A3F009B0004DCCA /* NSTimerTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4FE3FC71A3F009B0004DCCA /* NSTimerTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FE3FD51A3F009B0004DCCA /* Build configuration list for PBXNativeTarget "NSTimerTutorialTests" */;
+			buildPhases = (
+				C4FE3FC41A3F009B0004DCCA /* Sources */,
+				C4FE3FC51A3F009B0004DCCA /* Frameworks */,
+				C4FE3FC61A3F009B0004DCCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4FE3FCA1A3F009B0004DCCA /* PBXTargetDependency */,
+			);
+			name = NSTimerTutorialTests;
+			productName = NSTimerTutorialTests;
+			productReference = C4FE3FC81A3F009B0004DCCA /* NSTimerTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4FE3FA81A3F009B0004DCCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "iOS-Blog";
+				TargetAttributes = {
+					C4FE3FAF1A3F009B0004DCCA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C4FE3FC71A3F009B0004DCCA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C4FE3FAF1A3F009B0004DCCA;
+					};
+				};
+			};
+			buildConfigurationList = C4FE3FAB1A3F009B0004DCCA /* Build configuration list for PBXProject "NSTimerTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4FE3FA71A3F009A0004DCCA;
+			productRefGroup = C4FE3FB11A3F009B0004DCCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4FE3FAF1A3F009B0004DCCA /* NSTimerTutorial */,
+				C4FE3FC71A3F009B0004DCCA /* NSTimerTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4FE3FAE1A3F009B0004DCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FE3FBE1A3F009B0004DCCA /* Main.storyboard in Resources */,
+				C4FE3FC31A3F009B0004DCCA /* LaunchScreen.xib in Resources */,
+				C4FE3FC01A3F009B0004DCCA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FE3FC61A3F009B0004DCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4FE3FAC1A3F009B0004DCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FE3FBB1A3F009B0004DCCA /* ViewController.swift in Sources */,
+				C4FE3FB91A3F009B0004DCCA /* NSTimerTutorial.xcdatamodeld in Sources */,
+				C4FE3FB61A3F009B0004DCCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FE3FC41A3F009B0004DCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FE3FCF1A3F009B0004DCCA /* NSTimerTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4FE3FCA1A3F009B0004DCCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4FE3FAF1A3F009B0004DCCA /* NSTimerTutorial */;
+			targetProxy = C4FE3FC91A3F009B0004DCCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4FE3FBC1A3F009B0004DCCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4FE3FBD1A3F009B0004DCCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4FE3FC11A3F009B0004DCCA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4FE3FC21A3F009B0004DCCA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4FE3FD01A3F009B0004DCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4FE3FD11A3F009B0004DCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4FE3FD31A3F009B0004DCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSTimerTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4FE3FD41A3F009B0004DCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSTimerTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4FE3FD61A3F009B0004DCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NSTimerTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTimerTutorial.app/NSTimerTutorial";
+			};
+			name = Debug;
+		};
+		C4FE3FD71A3F009B0004DCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NSTimerTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTimerTutorial.app/NSTimerTutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4FE3FAB1A3F009B0004DCCA /* Build configuration list for PBXProject "NSTimerTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FE3FD01A3F009B0004DCCA /* Debug */,
+				C4FE3FD11A3F009B0004DCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FE3FD21A3F009B0004DCCA /* Build configuration list for PBXNativeTarget "NSTimerTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FE3FD31A3F009B0004DCCA /* Debug */,
+				C4FE3FD41A3F009B0004DCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4FE3FD51A3F009B0004DCCA /* Build configuration list for PBXNativeTarget "NSTimerTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FE3FD61A3F009B0004DCCA /* Debug */,
+				C4FE3FD71A3F009B0004DCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4FE3FB71A3F009B0004DCCA /* NSTimerTutorial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4FE3FB81A3F009B0004DCCA /* NSTimerTutorial.xcdatamodel */,
+			);
+			currentVersion = C4FE3FB81A3F009B0004DCCA /* NSTimerTutorial.xcdatamodel */;
+			path = NSTimerTutorial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C4FE3FA81A3F009B0004DCCA /* Project object */;
+}
